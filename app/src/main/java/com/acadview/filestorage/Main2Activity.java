@@ -18,7 +18,7 @@ import java.io.InputStreamReader;
 
 public class Main2Activity extends AppCompatActivity {
 
-    TextView name,email,phone,state,city;
+    TextView name;
     Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,10 +26,6 @@ public class Main2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
         name = findViewById(R.id.name1);
-        email = findViewById(R.id.email1);
-        phone = findViewById(R.id.phone1);
-        state = findViewById(R.id.state1);
-        city = findViewById(R.id.city1);
         button = findViewById(R.id.button);
 
 
@@ -55,10 +51,7 @@ public class Main2Activity extends AppCompatActivity {
                         builder.append(line);
                         input.close();
                         name.setText(line);
-                        email.setText(line);
-                        phone.setText(line);
-                        state.setText(line);
-                        city.setText(line);
+
 
                     }
 

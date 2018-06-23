@@ -27,38 +27,6 @@
             android:text="@string/textview"
             android:textSize="30sp" />
 
-        <TextView
-            android:id="@+id/email1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20sp"
-            android:text="@string/textview"
-            android:textSize="30sp" />
-
-        <TextView
-            android:id="@+id/phone1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20sp"
-            android:text="@string/textview"
-            android:textSize="30sp" />
-
-        <TextView
-            android:id="@+id/state1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20sp"
-            android:text="@string/textview"
-            android:textSize="30sp" />
-
-        <TextView
-            android:id="@+id/city1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20sp"
-            android:text="@string/textview"
-            android:textSize="30sp" />
-
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
