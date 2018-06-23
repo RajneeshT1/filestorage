@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         button = findViewById(R.id.button);
         spinner = findViewById(R.id.spinner);
 
-        String[] state = {"haryana", "himachal", "punjab"};
+        String[] state = {"allahbad", "himachal", "punjab"};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, state);
         spinner.setAdapter(adapter);
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(MainActivity.this,Main2Activity.class);
+                Intent intent = new Intent(MainActivity.this, Main2Activity.class);
 
 
                 String userName = name.getText().toString();
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 //write data
 
-                String totalData = "Name : " + userName + "\n" + "Email : " + userEmail + "\n" + "Phone : " + userPhone + "\n" + "City : " + userCity + "\n" + "SpinnerData : " + spinnerData ;
+                String totalData = "Name : " + userName + "\n" + "Email : " + userEmail + "\n" + "Phone : " + userPhone + "\n" + "State :" + spinnerData + "\n" + "City :" + userCity ;
 
                 FileOutputStream fos;
                 try {
